@@ -1,0 +1,200 @@
+body {
+    background-color: #dbdbdb;
+}
+
+.sectionA {
+    border: 1px solid #fff;
+    width: 540px;
+    margin: auto;
+    /* transform: translate(-50%,-50%); */
+    background-color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 150px;
+    margin-top: 40px;
+}
+
+.divisionA {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.formA {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.labelA {
+    font-size: 18px;
+    color: #757778;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.secondLine {
+    display: none;
+}
+
+.subDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.styleInput {
+    width: 90px;
+    height: 30px;
+    border: 1px solid #757778;
+    border-radius: 5px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.styleInput::-webkit-outer-spin-button,
+.styleInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.divisionB {
+    display: flex;
+}
+
+.lineStyle {
+    border: 1px solid #d1d4d6;
+    height: 0px;
+    width: 80%;
+    position: relative;
+    top: 30px;
+    left: 27px;
+}
+
+.buttonLabel {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    position: relative;
+    left: 27px;
+    background-color: #854cff;
+    border: 1px solid #854cff;
+    text-align: center;
+}
+
+.buttonLabel:hover {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.arrowLabel {
+    border: 1px solid;
+    color: #fff;
+    width: 0px;
+    height: 90%;
+    position: relative;
+    top: 35%;
+}
+
+.secondDiv {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+
+.sectionBdiv {
+    display: flex;
+    gap: 10px;
+}
+
+.dayLabel {
+    position: relative;
+    top: 15px;
+    font-size: 40px;
+    color: #854cff;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.paraLabelA {
+    font-size: 50px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.labelError {
+    color: red;
+}
+
+.inputErr {
+    border: 1px solid red;
+}
+
+.hiddenText {
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width:431px) {
+    .sectionA {
+        width: 300px;
+        margin: auto;
+        border-bottom-right-radius: 170px;
+        margin-top: 20px;
+    }
+
+    .divisionA {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .formA {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .labelA {
+        font-size: 15px;
+    }
+
+    .styleInput {
+        width: 70px;
+    }
+
+    .lineStyle {
+        width: 36%;
+        top: 30px;
+        left: 10px;
+    }
+
+    .secondLine {
+        display: block;
+        border: 1px solid #d1d4d6;
+        height: 0px;
+        width: 34%;
+        position: relative;
+        top: 30px;
+        left: 5px;
+        right: 10px;
+    }
+
+    .buttonLabel {
+        left: 5px;
+    }
+
+    .sectionBdiv {
+        position: relative;
+        left: 15px;
+    }
+}
