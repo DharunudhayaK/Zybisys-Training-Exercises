@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(12, 12, 83);
+}
+.sectionA{
+    border: 1px solid #fff;
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contentA{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.contentB{
+    position: relative;
+}
+
+.todoLabel{
+    text-transform: capitalize;
+    color: rgb(22, 22, 107);
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 6px;
+}
+
+.inputBox{
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    padding: 12px;
+    position: relative;
+    width: 80%;
+    text-transform: capitalize;
+}
+
+.styleBtn{
+    padding: 12px;
+    width: 90px;
+    position: absolute;
+    left: 200px;
+    border-radius: 16px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.contentC{
+    float: left;
+    margin: 4px;
+    position: relative;
+    left: 13px;
+    font-size: 21px;
+    color: rgb(12, 12, 83);
+    font-weight: bold;
+}
