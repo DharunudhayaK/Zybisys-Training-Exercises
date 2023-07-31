@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sectionA {
+    display: grid;
+    grid-template-columns: 400px auto;
+}
+
+.leftSide {
+    /* border: 1px solid red; */
+    height: 595px;
+    background-image: url(assets/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.frontCard {
+    width: 400px;
+    height: 190px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    background-image: url(assets/bg-card-front.png);
+    background-repeat: no-repeat;
+    background-size: 360px;
+}
+
+.backCard {
+    width: 380px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    background-image: url(assets/bg-card-back.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.formContainer {
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 28%;
+    left: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.nameLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.cardNameLabel {
+    text-transform: capitalize;
+    letter-spacing: 1.1px;
+    font-size: 19px;
+}
+
+.inputBox {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.expiryContent {
+    text-transform: capitalize;
+}
+
+.cvvNumber {
+    text-transform: uppercase;
+}
+
+.lastInput {
+    display: flex;
+    gap: 10px;
+    margin-top: 7px;
+}
+
+.date {
+    width: 60px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.cvvNum {
+    width: 108px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.buttonLabel {
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #220930;
+    padding: 10px;
+    border: 1px solid #220930;
+    border-radius: 5px;
+}
+
+.circleOuter {
+    width: 100px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    display: flex;
+}
+
+.firstCircle {
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.secondCircle {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+}
+
+.digitInput {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 23px;
+    color: #fff;
+    letter-spacing: 1.6px;
+}
+
+.digitContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.left1 {
+    margin-left: 7px;
+}
+
+.nameDescription {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+
+.frontEnd {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    color: #fff;
+    letter-spacing: 1.4px;
+}
+
+.backEnd {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    color: #fff;
+    letter-spacing: 1.4px;
+}
+
+.e{
+    color: red;
+    font-size: 11px;
+    font-weight: 600;
+}
