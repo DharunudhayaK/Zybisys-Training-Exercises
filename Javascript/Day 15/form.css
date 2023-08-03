@@ -1,0 +1,48 @@
+#head-label{
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #eab676;
+}
+
+#form-label{
+    width: 20%;
+}
+
+.label-part{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #abdbe3;
+    padding: 10px;
+    text-align: left;
+}
+
+.direction-label{
+    display: flex;
+    padding: 10px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.box-label{
+    width: 200px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#table-label{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tr,td,th{
+    border: 2px solid black;
+    padding: 15px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+
+    <h2 id="head-label">details</h2>
+
+    <main>
+        <section>
+            <form id="form-label">
+
+                <div class="direction-label">
+                    <label for="name" class="label-part" id="name-label">name:</label>
+                    <input type="text" name="name" placeholder="Enter your name" class="box-label" required
+                        pattern="[A-Za-z]+" />
+                </div>
+
+                <div class="direction-label">
+                    <label for="mail" class="label-part" id="mail-label">email</label>
+                    <input type="email" name="mail" class="box-label" placeholder="Enter your mail" required />
+                </div>
+
+                <div class="direction-label">
+                    <label for="age" class="label-part" id="age-label">AGE</label>
+                    <input type="number" class="box-label" name="age" placeholder="Enter your age" min="10" max="35"
+                        title="age between 10 and 35" required />
+                </div>
+                <div class="direction-label">
+                    <label for="dob" class="label-part" id="dateofbirth-label">DOB</label>
+                    <input type="date" id="dateofbirth" class="box-label" name="dob" placeholder="Enter your dob"
+                        required />
+                </div>
+
+                <input type="submit" value="submit" class="btn">
+
+            </form>
+
+        </section>
+
+        <section>
+            <h2>Table</h2>
+            <table id="table-label">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>mail</th>
+                        <th>age</th>
+                        <th>Dob</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vijay1</td>
+                        <td>@1amile.ocm</td>
+                        <td>42</td>
+                        <td>1-8-01</td>
+                    </tr>
+
+                    <tr>
+                        <td>Vijay2</td>
+                        <td>@2mile.ocm</td>
+                        <td>21</td>
+                        <td>2-12-90</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Vijay3</td>
+                        <td>@3amile.ocm</td>
+                        <td>42</td>
+                        <td>21-3-12</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <script>
+
+        document.getElementById("form-label").addEventListener("submit",function(event) {
+            event.preventDefault()
+        let nameCap = document.getElementById("name-label").value
+        let mailCap = document.getElementById("mail-label").value
+        let ageCap = document.getElementById("age-label").value
+        let dateCap = document.getElementById("dateofbirth-label").value
+
+       
+        let capture = document.getElementById("table-label")
+
+        
+
+
+    })
+
+
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+body {
+    background-color: #f3eae3;
+    font-family: Helvetica;
+}
+
+#Main-body-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    margin: 100px 300px 100px 300px;
+}
+
+img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.first-container {
+    height: 600px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.second-container {
+    height: 600px;
+    border-top-right-radius: 10px;
+    border-end-end-radius: 10px;
+    background-color: #ffffff;
+}
+
+.second-desc {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #9a9b9e;
+    font-weight: bold;
+    margin: 35px;
+}
+
+.third-desc {
+    text-transform: capitalize;
+    word-spacing: 5;
+    margin: 35px;
+    color: #1b222a;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.fourth-desc {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 35px;
+    color: #a1a2a7;
+    font-weight: 600;
+}
+
+#amount-cart {
+    display: flex;
+}
+
+.cart1 {
+    font-size: 45px;
+    margin: 0px;
+    margin-left: 35px;
+    color: #437c67;
+    font-weight: bold;
+}
+
+.cart2 {
+    font-size: 20px;
+    margin-left: 35px;
+    color: #75757d;
+}
+
+.btn {
+    width: 75%;
+    padding: 20px;
+    margin-left: 35px;
+    background-color: #3d8168;
+    border-radius: 10px;
+    color: #f3fffd;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:425px) {
+
+    #Main-body-container {
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 100%;
+        height: 300px;
+        align-items: center;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-end-start-radius: 0px;
+    }
+
+    .first-container {
+        height: 300px;
+    }
+
+    .second-container {
+        height: 450px;
+        border-top-right-radius: 0px;
+        border-end-end-radius: 10px;
+        border-top-left-radius: 0px;
+        border-end-start-radius: 10px;
+    }
+
+    .second-desc {
+        letter-spacing: 4px;
+        font-size: 15px;
+        margin: 25px;
+    }
+
+    .third-desc {
+        font-size: 32px;
+        margin: 25px;
+    }
+
+    .fourth-desc {
+        font-size: 15px;
+        margin: 25px;
+        font-weight: 400;
+    }
+
+    .cart1 {
+        margin: 25px;
+        margin-top: 0px;
+        font-size: 35px;
+    }
+
+    .cart2 {
+        margin-left: 30px;
+        margin: 0px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 90%;
+        margin-left: 17px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Main-body-container {
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    #Main-body-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+        margin: 100px;
+    }
+}

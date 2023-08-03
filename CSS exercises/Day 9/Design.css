@@ -1,37 +1,52 @@
+body {
+    background-color: #ffffff;
+}
+
 #body-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-
-#body--para2-containers {
-    margin-right: 20%;
+    font-family: League Spartan;
 }
 
 .body-container--header {
-    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-    padding-top: 50px;
-    padding-left: 50px;
-    color: #5f0675;
-    margin: 5px;
     letter-spacing: 1px;
 }
 
+#body--para1-container {
+    font-size: 50px;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #552054;
+    font-weight: bolder;
+}
+
+
+#body--para2-container {
+    margin-right: 20%;
+    margin-left: 15%;
+    color: #9b949b;
+    line-height: 24px;
+    font-weight: bolder;
+}
+
 .rate-containers {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    color:#634e69;
+    color: #44293e;
+    padding: 2px;
+    font-weight: bolder;
+    font-family: League Spartan;
 }
 
 .rate1-containers {
-    margin-left: 70%;
+    margin-left: 1px;
     border-radius: 7px #cce7e8;
     background-color: #f7f2f8;
     border-radius: 8px;
     margin: 2px;
-    margin-top: 13%;
-    margin-right: 37%;
-    padding: 2px;
+    margin-top: 15%;
+    margin-right: 35%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .rate2-containers {
@@ -39,20 +54,27 @@
     border-radius: 7px #cce7e8;
     background-color: #f7f2f8;
     border-radius: 8px;
+    margin-right: 15%;
     margin-left: 10%;
-    margin-right: 30%;
-    padding-left: 2px;
-    padding: 2px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .rate3-containers {
-    margin-left: 20%;
-    margin-right: 19%;
+    margin: 2%;
+    margin-right: 10%;
+    margin-left: 22%;
     border-radius: 7px #cce7e8;
     background-color: #f7f2f8;
     border-radius: 8px;
-    padding-left: 2px;
-    padding: 2px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.rate--stars {
+    margin-left: 15%;
 }
 
 #body--para2-containers {
@@ -64,38 +86,40 @@
 #head-footer-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 40px;
-
+    padding: 30px;
+    margin-right: 40px;
+    margin-left: 0px;
 }
 
 .foot-box1 {
-    margin-top: 30px;
-    margin-right: 10px;
+    margin-top: 1px;
     padding: 10px;
     border-radius: 10px;
+    background-color: #511f50;
+    color: whitesmoke;
+    margin-bottom: 20%;
+    margin-left: 15%;
+}
+
+.foot-box2 {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5%;
     background-color: #511f50;
     color: whitesmoke;
     margin-bottom: 15%;
 }
 
-.foot-box2 {
-    margin-top: 60px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #511f50;
-    color: whitesmoke;
-    margin-bottom: 8%;
-}
-
 .foot-box3 {
-    margin-top: 90px;
-    margin-left: 10px;
+    margin-top: 40px;
+    margin-left: 5%;
     padding: 10px;
     border-radius: 10px;
     background-color: #511f50;
     color: whitesmoke;
+    margin-bottom: 10%;
 }
-
 
 .foot--image {
     display: flex;
@@ -109,14 +133,105 @@
 
 .foot--desc {
     font-size: 13px;
-    margin: 2px;
+    margin: 10px;
+    color: rgba(205, 120, 175, 255);
 }
 
 .author-name {
     padding-top: 15px;
-    margin: 1px;
+    margin: 10px;
 }
 
 .footer-name-about {
-    padding: 10px;
+    padding: 15px;
+    line-height: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    #body-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rate1-containers {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .rate--text {
+        margin-left: 45px;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+
+    .rate--stars {
+        display: flex;
+        margin-left: 25%;
+        padding: 0px;
+        line-height: 0px;
+        margin-top: 30px;
+    }
+
+    #body--para2-container {
+        line-height: 24px;
+        font-family: League Spartan;
+        margin: 0px;
+    }
+
+    #body--para1-container {
+        padding-right: 1px;
+        margin-left: 60px;
+        font-size: 30px;
+    }
+
+    #head-footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot-box1,
+    .foot-box2,
+    .foot-box3 {
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    .footer-name-about {
+        font-size: 15px;
+        padding: 5px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+
+    .rate-containers{
+        border: 1px solid black;
+        height: 170px;
+        margin-top: 90px;
+    }
+
+    .rate1-containers {
+        margin-left: 0px;
+        margin: 2px;
+        font-size: 15px;
+    }
+
+    #head-footer-container {
+        margin-right: 0px;
+    }
+
+    .foot-box1,
+    .foot-box2,
+    .foot-box3 {
+
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        height: 90%;
+        width: 90%;
+        margin: 5px;
+    }
 }
