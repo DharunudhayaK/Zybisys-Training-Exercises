@@ -1,0 +1,190 @@
+.headerLabelA {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.navA {
+    letter-spacing: 1.4px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.headButton {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.section {
+    border: 1px solid red;
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
+
+.noteLabel {
+    text-align: center;
+    letter-spacing: 1.7px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.formLabel {
+    display: grid;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.titleBox {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid white;
+    height: 28px;
+}
+
+.descBox {
+    height: 180px;
+}
+
+.addButton {
+    width: 130px;
+    margin: auto;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.sectionB {
+    padding: 15px;
+    width: 45%;
+    height: 45%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: #fff;
+    padding: 15px;
+    display: none;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.editLabel {
+    padding: 15px;
+    width: 25%;
+    height: 45%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: #fff;
+    padding: 15px;
+    display: none;
+    gap: 10px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.editLabel::-webkit-scrollbar {
+    display: none;
+}
+
+.sectionB::-webkit-scrollbar {
+    display: none;
+}
+
+.popupBg {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(152, 151, 151, 0.483);
+    z-index: 999;
+}
+
+.hide {
+    display: none;
+}
+
+.popupTitle {
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.popupDiv {
+    text-align: center;
+    display: flex;
+    gap: 15px;
+}
+
+.editBtn {
+    padding: 10px;
+    width: 170px;
+    margin: auto;
+    font-size: 15px;
+    text-transform: capitalize;
+    background-color: hsl(195, 66%, 46%);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.insideEditOption {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.insideDescBox {
+    height: 120px;
+}
+
+.updatedValue {
+    border: 1px solid;
+    width: 240px;
+    margin: auto;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.innerDivTag {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    row-gap: 10px;    
+    background-color: black;
+
+}

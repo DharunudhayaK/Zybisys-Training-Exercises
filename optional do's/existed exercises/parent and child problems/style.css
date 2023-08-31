@@ -1,0 +1,14 @@
+.section-1{
+    border: 1px solid red;
+}
+
+.innerDivTag{
+    border: 1px solid blue;
+    margin: 10px;
+    text-align: center;
+}
+
+.boxA{
+    border: 1px solid violet;
+    margin: 15px;
+}

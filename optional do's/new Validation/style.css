@@ -1,0 +1,117 @@
+body {
+    background-color: #f8f1f1;
+    z-index: 999;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.styleForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.title {
+    text-transform: capitalize;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    color: #1c173f;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+}
+
+.outerDiv {
+    width: 320px;
+    position: relative;
+    top: 40px;
+    margin: auto;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    /* height: 375px; */
+    box-shadow: inset;
+}
+
+.errorMsg {
+    display: none;
+}
+
+.openErr {
+    display: block;
+    color: red;
+    font-size: 12px;
+}
+
+.showMsg {
+    display: block;
+    color: red;
+    font-size: 12px;
+}
+
+.isValid {
+    display: block;
+    color: red;
+}
+
+.buttonA {
+    margin-top: 14px;
+    width: 320px;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 4px;
+    background-color: #1c173f;
+    color: #fff;
+    border: 1px solid #1c173f;
+    cursor: pointer;
+
+}
+
+.signLabel {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.secondDiv {
+    display: none;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.usernameLabel {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(35, 36, 37);
+}
+
+.lineLabel {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.inputBox {
+    border: 1px solid lightslategray;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.descA {
+    font-size: 12px;
+    color: lightslategray;
+}
+
+.acc {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    text-transform: capitalize;
+}

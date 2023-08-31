@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sectionA">
+        <aside class="leftSide">
+            <div class="frontCard">
+                <div class="circleOuter">
+                    <p class="firstCircle"></p>
+                    <p class="secondCircle"></p>
+                </div>
+                <div class="digitInput">
+                    <span class="firstDigit">0000 0000 0000 0000</span>
+                </div>
+                <p class="nameDescription">jane appleseed</p>
+                <div class="frontEnd">
+                    <p>00</p>
+                    <p>/</p>
+                    <p>00</p>
+                </div>
+            </div>
+            <div class="backCard">
+                <span class="backEnd">000</span>
+            </div>
+        </aside>
+        <aside class="rightSide">
+            <div class="formContainer">
+                <form class="nameLabel">
+                    <label class="cardNameLabel">cardholder name</label>
+                    <input type="text" placeholder="e.g. Jane Appleseed" class="inputBox">
+                    <span class="err1 e"></span>
+                </form>
+                <form class="nameLabel">
+                    <label class="cardNameLabel">card number</label>
+                    <input type="text" placeholder="e.g. Jane Appleseed" class="inputBox">
+                    <span class="err2 e"></span>
+                </form>
+                <form class="expirForm">
+                    <label class="expiryContent">exp.date (MM/YY)</label>
+                    <label class="cvvNumber">cvv</label>
+                    <div class="lastInput">
+                        <div>
+                            <input type="text" placeholder="MM" class="date">
+                            <span class="err3 e"></span>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="YY" class="date">
+                            <span class="err4 e"></span>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="e.g. 123" class="cvvNum">
+                            <span class="err5 e"></span>
+                        </div>
+                    </div>
+                </form>
+                <button class="buttonLabel">confirm</button>
+            </div>
+        </aside>
+    </section>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="headerLabelA">
+        <p class="navA">Note-Taking App</p>
+        <button class="headButton">Refer here!</button>
+        <button class="headButton popupClick">popup</button>
+    </header>
+
+    <section class="section">
+        <h1 class="noteLabel">Note-Taking App</h1>
+        <form class="formLabel">
+            <label for="name">Title</label>
+            <input type="text" placeholder="Enter the Title" name="input" class="titleBox" required />
+
+            <label for="name">Content</label>
+            <textarea name="input" id="" class="titleBox descBox" placeholder="Enter the Description" required
+                minlength="5" maxlength="100"></textarea>
+
+            <button class="addButton saveButton">Add</button>
+        </form>
+    </section>
+
+    <section class="popupBg hide"></section>
+    <section class="sectionB hide"></section>
+    <section class="editLabel"></section>
+    <section class="updatedValue"></section>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

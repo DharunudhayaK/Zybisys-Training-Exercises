@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let store = new Promise((resolve, reject) => {
+            setTimeout(function () {
+                resolve()
+            }, 5000)
+
+        })
+        store.then(() => {
+            console.log("hello")
+        })
+        // store.catch(() => {
+        //     console.log("hi");
+        // })
+        // store.catch((err) => {console.log(err);})
+
+        // var timeout = 1000;
+        // for (let out = 1; out <= 10; out++) {
+        //     setTimeout(function () {
+        //         console.log(out)
+        //         console.log(timeout = (1000 * out));
+        //     }, timeout * out);
+        //     // timeout += 1000
+
+        // }
+
+        // let out = 1
+        // let store = setInterval(() => {
+        //     console.log(out)
+        //     out++
+        //     if (out === 11) {
+        //         clearInterval(store)
+        //     }
+        // }, 1000)
+
+        // function num() {
+        //     for (let i = 1; i <= 10; i++) {
+        //         setTimeout(() => {
+        //             console.log(i);
+        //             console.log((i * i - 1) * 1000);
+        //         }, (i * i - 1) * 1000)
+        //     }
+        // }
+        // num();
+
+    </script>
+</body>
+
+</html>
